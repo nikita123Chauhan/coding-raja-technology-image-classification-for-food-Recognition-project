@@ -1,0 +1,44 @@
+/*.....................................Image classification for food recogonization  step to be taken for completinf this project.......................*/
+
+------------Explanation of Each Step--------------------
+1.Download the Dataset:
+     The script checks if the dataset is already downloaded. If not, it downloads the Food-101 dataset.
+    
+2.Extract the Dataset.
+   the scripts extracts the dataset from the tar.gz file.
+
+3.Data Preprocessing:
+   script reads class names and train/test splits.
+   It sets up ImageDataGenerator for data augmentation and normalization.
+
+4.Model Architecture:
+   The script uses MobileNetV2 as the base model, which is pre-trained on ImageNet.
+   It adds global average pooling and dense layers on top of the base model.
+
+5.Model Training:
+   The model is compiled and trained using the training data.
+
+6.Model Evaluation:
+  The script evaluates the model on the validation data and prints the accuracy.
+
+7.Visualization:
+   The script visualizes some of the predictions made by the model, showing the true labels and predicted labels.
+
+
+*-----------Using an IDE---------------*
+Using Jupyter Notebook
+
+1.Install Jupyter: If you don't have Jupyter installed, you can install it using:
+       /-----give this command-----------/
+        pip install jupyter
+
+2.Convert Script to Notebook: You can convert the script to a Jupyter notebook by copying the code into a new notebook cell-by-cell.
+
+3.Run Jupyter Notebook: Launch Jupyter Notebook by running:
+        /------give this command---------/
+          jupyter notebook
+
+       Navigate to the notebook file and execute the cells sequentially.
+
+By following these steps, you will have a complete project for food image classification using the Food-101 dataset.
+
